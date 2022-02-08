@@ -1,0 +1,343 @@
+.navbar-brand{
+    transition: all ease-in-out .2s;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.05);
+}
+
+.nav-item{
+    margin: 0 10px ;    
+}
+
+.index-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(116, 118, 233, 0.7), rgba(95, 90, 90, 0.7)),
+    url('images/index-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+
+.menu-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(204, 196, 196, 0.7), rgba(0,0,0,.7)),
+    url('images/menu-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+
+.reservation-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(201, 192, 192, 0.7), rgba(196, 195, 195, 0.7)),
+    url('images/reservation-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+
+.about-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(75, 69, 69, 0.7), rgba(65, 61, 61, 0.7)),
+    url('images/about-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+
+  .contact-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(75, 69, 69, 0.7), rgba(65, 61, 61, 0.7)),
+    url('images/about-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+.privacy-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(136, 130, 130, 0.7), rgba(114, 110, 110, 0.7)),
+    url('images/privacy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+
+.staff-banner {
+    height: 500px;
+    width: 100%;  
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url('images/privacy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+  
+.index-banner h1 {
+    font-family: 'Lora', serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+    padding-bottom: 10px;
+}
+.index-banner p {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    font-weight: 150;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+}
+
+.menu-banner h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+    padding-bottom: 10px;
+}
+.menu-banner p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+}
+
+.reservation-banner h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+    padding-bottom: 10px;
+}
+.reservation-banner p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+}
+
+.about-banner h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+    padding-bottom: 10px;
+}
+.about-banner p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+}
+
+.privacy-banner h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+    padding-bottom: 10px;
+}
+.privacy-banner p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+}
+
+.staff-banner h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+    padding-bottom: 10px;
+}
+.staff-banner p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;    
+    text-shadow: 2px 2px 9px #111;
+}
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px #000;
+    border: none; 
+    padding-bottom: 20px; 
+    transition: all ease-in-out .2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card img {
+    width: 100%;
+}
+
+.login .btn {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    transition: all ease-in-out .2s;
+}
+
+.login .btn:hover {
+    transform: scale(1.05);
+}
+
+.site-links .btn {  
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(26, 26, 26);  
+    height: 100px;
+    margin-bottom: 20px;
+    transition: all ease-in-out .2s;
+    border: none;
+    border-radius: 0;
+}
+
+.site-links .btn:hover {
+    transform: scale(1.05);
+    background-color: rgb(148, 148, 148);
+}
+
+.staff-card {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px #000;
+    border: none;
+    padding:30px 50px;
+    transition: all ease-in-out .2s;
+}
+
+.staff-card:hover {
+    transform: scale(1.02);
+}
+
+.staff-card .card-title {
+    margin: 30px 0;
+    text-decoration: underline;
+}
+.menu-card {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px #000;
+    border: none;
+    padding: 0 80;     
+}
+
+.fas {
+    margin-top: 30px;
+}
+
+.menu-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-decoration: underline;   
+}
+
+.item-title {
+    margin: 0;
+}
+
+.item-desc {
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.item-price {
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 40px;   
+}
+
+.item-note {
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.reservation-card {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px #000;
+    border: none;
+    padding: 30px 80px;  
+}
+
+.reservation-card h2 {
+    text-decoration: underline;
+    margin: 30px 0 30px 0;
+}
+
+.form .row {
+    margin-top: 10px;
+}
+
+.form .col {
+    margin-top: 10px;
+}
+
+.form .col-sm-12 {
+    margin-top: 10px;
+}
+
+.form .btn {
+    margin-top: 30px;
+}
+
+.opening-hours th {    
+    padding-right: 10px
+}
+
+.contact-details th {    
+    padding-right: 10px
+}
+
+#map {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.footer {    
+    color: rgb(121, 112, 112);
+    background-color: rgb(26, 26, 26);
+    padding: 20px 0;
+    margin-top: 15px;
+}
+
+.footer a {
+    color: rgb(138, 136, 136);
+}
+  
